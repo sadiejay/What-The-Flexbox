@@ -35,12 +35,26 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
   /* video 2 builds from here */
   min-height: 100vh;
+  /*
+  ****************Tutorial 3 start************
   flex-direction: column;
+
+*/
+
   /*
     For flex-direction: column; the main axis runs top to bottom. The cross axis left to right
     For flex-direction: column-reverse; the main axis runs bottom to top.
     flex-direction: row; (default) main axis runs from left to right. Cross top to botom.
     flex-direction: row-reverse; main axis right to left
+
+
+    ****************Tutorial 3 finish************
+
    */
 
 }
+
+
+/*
+****************Tutorial 4 -wrapping elements- start************
+*/
