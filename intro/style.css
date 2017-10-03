@@ -58,3 +58,44 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 /*
 ****************Tutorial 4 -wrapping elements- start************
 */
+.container{
+flex-wrap: wrap;
+
+/*
+flex-wrap: wrap; main axis: left => right cross axis: top => bottom
+         : wrap-reverse: cross axis: bottom => top
+*/
+
+}
+
+/*
+flex-direction: column;
+
+  main axis: top => bottom cross axis: left => right
+ min-height enables vertical scrolling.
+*/
+
+
+.box{
+  width: calc(33.33333% - 20px);
+
+/* wont bust out the horizontal scroll bar even if there isn't enough space for 300px per box. The space will be distributed equally. */
+
+
+margin:10px;
+  /*
+  adding margin will break the flexbox because it is not part of the box model.
+
+  padding and border are safe because of box-sizing:border-box;
+
+  use the calc function to compute:
+            (width - 2margin)
+
+  */
+
+}
+
+
+/*
+****************Tutorial 4 -wrapping elements- end (uncommented)************
+*/
